@@ -1,0 +1,394 @@
+.headerClass,
+.footerClass {
+    background-color: rgb(168, 106, 13);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.headerClass,
+.footerClass,
+.navStyle {
+    font-size: 1.5rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(168, 106, 13);
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    height: max-content;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.formStyle,
+.labelStyle,
+.errorStyle,
+.buttonStyle {
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navStyle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    background-color: rgb(168, 106, 13);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.formStyle {
+    text-align: center;
+}
+
+.inputStyle {
+    width: 700px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.inputBodyStyle {
+    width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.labelStyle {
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+}
+
+.buttonStyle {
+    text-align: center;
+    background-color: rgb(168, 106, 13);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonStyle:hover {
+    text-decoration: underline;
+}
+
+.errorStyle {
+    color: red;
+}
+
+.productContainer {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.specificProductContainer,
+.cartProductContainer {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productContainer img {
+    width: 300px;
+}
+
+.viewProductButton {
+    background-color: rgb(168, 106, 13);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.backHomeButton,
+.checkoutButton,
+.purchaseButton,
+.addToCartStyle {
+    background-color: rgb(168, 106, 13);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.backHomeButtonContainer {
+    margin-top: 30px;
+}
+
+.viewProductButton:hover,
+.backHomeButton:hover,
+.checkoutButton:hover {
+    text-decoration: underline;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.searchInputStyle {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.descriptionStyle,
+.priceStyle {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cardContainer {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardHeader>p {
+    padding: 0;
+    margin: 0;
+}
+
+.cardBody {
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.usernameStyle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+.ratingStyle {
+    font-size: 18px;
+    color: orange;
+}
+
+.descriptionStyle {
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 1em;
+}
+
+.discountedPriceStyle {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: red;
+}
+
+.cartEmptyStyle {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(168, 106, 13);
+    color: white;
+    border-radius: 20px;
+}
+
+.addCartStyle {
+    background-color: green;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.removeCartStyle {
+    background-color: red;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 5px;
+}
+
+.titlePriceStyle {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.successH1 {
+    display: flex;
+    justify-content: center;
+}
+
+.backHomeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.totalStyle {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 653px) {
+    .descriptionStyle {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .cartImageStyle {
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .inputStyle,
+    .inputBodyStyle {
+        max-width: 200px;
+    }
+
+    .ulStyle {
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .cartProductContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .ulStyle {
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navStyle {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 844px) {
+    .ulStyle {
+        display: flex;
+    }
+
+    .headerClass {
+        font-size: 1rem;
+    }
+
+    .productContainer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .inputStyle,
+    .inputBodyStyle {
+        width: 300px;
+    }
+
+    .footerClass {
+        font-size: 18px;
+    }
+
+    .specificImageStyle,
+    .cartImageStyle {
+        width: 300px;
+    }
+
+    .specificProductContainer {
+        text-align: center;
+    }
+
+    .successH1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cartProductContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
