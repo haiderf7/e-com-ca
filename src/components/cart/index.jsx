@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+
+import { Link } from 'react-router-dom';
 
 import { useTheCart } from "../../hooks/useTheCart";
 
