@@ -1,9 +1,6 @@
 import React from "react";
-
 import { useForm } from "react-hook-form";
-
 import { yupResolver } from "@hookform/resolvers/yup";
-
 import * as yup from "yup";
 
 const schema = yup
@@ -40,7 +37,15 @@ export function Contact() {
     });
 
     function onSubmit(data) {
-        console.log(data);
+        // Here you can place the criteria for message delivery
+        // For simplicity, let's assume the message is always delivered
+        // You can replace this with your actual criteria checking logic
+        const messageDelivered = true;
+
+        if (messageDelivered) {
+            alert("Your message has been delivered.");
+            console.log(data); // You can also log the data if needed
+        }
     }
 
     return (
