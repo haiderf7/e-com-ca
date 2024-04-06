@@ -1,4 +1,4 @@
-# Kardo's E-com Site
+# Haider's E-com Site
 
 ![portfolio-ecom-image](https://github.com/haiderf7/e-com-ca/blob/master/Ecom-ca.png?raw=true)
 
