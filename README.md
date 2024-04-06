@@ -1,5 +1,7 @@
 # Haider's E-com Site
 
+![portfolio-ecom-image](https://github.com/haiderf7/e-com-ca/blob/master/Ecom-ca.png?raw=true)
+
 This is a site where a user can look at different products which they can add to their cart and buy.
 
 ## Description
