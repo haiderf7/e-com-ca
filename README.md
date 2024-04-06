@@ -1,6 +1,6 @@
 # Kardo's E-com Site
 
-![portfolio-ecom-image](https://github.com/kardokiyani/e-com-ca/assets/91535515/01d2552b-be21-4a0d-9292-67db9ba6b3c7)
+![portfolio-ecom-image](https://github.com/haiderf7/e-com-ca/blob/master/Ecom-ca.png?raw=true)
 
 This is a site where a user can look at different products which they can add to their cart and buy.
 
